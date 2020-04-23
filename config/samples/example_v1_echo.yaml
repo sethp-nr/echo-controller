@@ -1,0 +1,6 @@
+apiVersion: example.x-k8s.io/v1
+kind: Echo
+metadata:
+  name: echo-sample
+spec:
+  ping: dust

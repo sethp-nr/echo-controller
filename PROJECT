@@ -1,0 +1,7 @@
+domain: x-k8s.io
+repo: github.com/sethp-nr/echo-controller
+resources:
+- group: example
+  kind: Echo
+  version: v1
+version: "2"
