@@ -1,0 +1,13 @@
+name: experiment
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: sethp-nr/test-workflow@master
